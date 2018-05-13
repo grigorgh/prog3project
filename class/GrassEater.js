@@ -1,6 +1,7 @@
 var eak = require("./eak.js");
 class GrassEater extends eak {
     constructor(x, y, index) {
+        super(x,y, index);
         this.energy = 6;
     }
     getNewCoordinates() {
